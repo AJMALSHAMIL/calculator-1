@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+  <div id="calculator">
+   <input type="text" id="screen">
+   <div class="btns" onclick="buttonclick(7)">7</div>
+   <div class="btns" onclick="buttonclick(8)">8</div>
+   <div class="btns" onclick="buttonclick(9)">9</div>
+   <div class="btns" onclick="buttonclick('/')">/</div>
+   <br>
+   <div class="btns" onclick="buttonclick(4)">4</div>
+   <div class="btns" onclick="buttonclick(5)">5</div>
+   <div class="btns" onclick="buttonclick(6)">6</div>
+   <div class="btns" onclick="buttonclick('*')">x</div>
+   <br>
+   <div class="btns" onclick="buttonclick(1)">1</div>
+   <div class="btns" onclick="buttonclick(2)">2</div>
+   <div class="btns" onclick="buttonclick(3)">3</div>
+   <div class="btns" onclick="buttonclick('-')">-</div>
+   <br>
+   <div class="btns" onclick="buttonclick('00')">00</div>
+   <div class="btns" onclick="buttonclick(0)">0</div>
+   <div class="btns" onclick="buttonclick('.')">.</div>
+   <div class="btns2" onclick="buttonclick('+')">+</div>
+   <br> 
+   <div class="btns3" onclick="clearAc()">AC</div>
+   <div class="btns3" onclick="buttonclick('%')">%</div>
+   <div class="btns3" onclick="equalTo()">=</div>
+   
+   
+  </div>
+</body>
+</html>
